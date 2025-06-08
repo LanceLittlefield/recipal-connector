@@ -11,9 +11,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://yourdomain.com/recipal/openapi.yaml"
+    "url": "https://lancelittlefield.github.io/recipal-connector/openapi.yaml"
   },
-  "logo_url": "https://yourdomain.com/recipal/logo.png",
-  "contact_email": "your@email.com",
-  "legal_info_url": "https://yourdomain.com/legal"
+  "logo_url": "https://lancelittlefield.github.io/recipal-connector/logo.png",
+  "contact_email": "you@example.com",
+  "legal_info_url": "https://lancelittlefield.github.io/recipal-connector/legal.html"
 }
