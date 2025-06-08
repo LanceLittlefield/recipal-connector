@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: recipal-api
+    env: python
+    buildCommand: ""
+    startCommand: uvicorn recipal_connector_api:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: RECIPAL_API_KEY
+        value: fc83d3b67515a15be9d81335b935342d
