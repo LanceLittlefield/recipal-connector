@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "ReciPal Recipes",
+  "name_for_model": "recipal",
+  "description_for_human": "Connect to ReciPal to retrieve recipes for production planning.",
+  "description_for_model": "Use this to fetch recipes from ReciPal filtered by tag or date.",
+  "auth": {
+    "type": "api_key",
+    "authorization_type": "header",
+    "api_key_name": "Authorization"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://yourdomain.com/recipal/openapi.yaml"
+  },
+  "logo_url": "https://yourdomain.com/recipal/logo.png",
+  "contact_email": "your@email.com",
+  "legal_info_url": "https://yourdomain.com/legal"
+}
